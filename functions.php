@@ -5,6 +5,7 @@ function mattsblog_theme_support() {
 	add_theme_support('title-tag');
 	// Allows for customization of theme logo (Themes => Customize => Logo)
 	add_theme_support('custom-logo');
+	add_theme_support('post-thumbnails');
 }
 
 add_action('after_setup_theme', 'mattsblog_theme_support');
